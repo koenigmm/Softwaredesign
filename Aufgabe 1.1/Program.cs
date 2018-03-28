@@ -10,20 +10,20 @@ namespace Aufgabe_1._1
             double d = double.Parse(args[1]);
 
             if (whichType.Equals("k"))
-            { 
-              getKugelInfo(d);
+            {
+                getKugelInfo(d);
             }
 
             if (whichType.Equals("w"))
-            { 
-              getCubeInfo(d);
+            {
+                getCubeInfo(d);
             }
 
             if (whichType.Equals("o"))
-            { 
-              getOktaederInfo(d);
+            {
+                getOktaederInfo(d);
             }
-            
+
         }
 
         static public double getCubeVolume(double dd)
@@ -39,10 +39,10 @@ namespace Aufgabe_1._1
             return surface_DD;
         }
 
-        static public void getCubeInfo (double dd_info)
-        {  
-            double volumen_output = Math.Round(getCubeVolume(dd_info),2);
-            double surface_output = Math.Round(getCubeSurface(dd_info),2);
+        static public void getCubeInfo(double dd_info)
+        {
+            double volumen_output = Math.Round(getCubeVolume(dd_info), 2);
+            double surface_output = Math.Round(getCubeSurface(dd_info), 2);
             Console.WriteLine("Würfel: A = " + surface_output + "  |  V = " + volumen_output);
         }
 
@@ -58,14 +58,14 @@ namespace Aufgabe_1._1
             return kugelsurface_DD;
         }
 
-        static public void getKugelInfo (double dd_info)
-        {  
-            double volumen_output = Math.Round(getKugelVolume(dd_info),2);
-            double surface_output = Math.Round(getKugelSurface(dd_info),2);
+        static public void getKugelInfo(double dd_info)
+        {
+            double volumen_output = Math.Round(getKugelVolume(dd_info), 2);
+            double surface_output = Math.Round(getKugelSurface(dd_info), 2);
             Console.WriteLine("Kugel: A = " + surface_output + "  |  V = " + volumen_output);
         }
 
-    
+
         static public double getOktaederVolume(double dd)
         {
             double oktaederVolume = (Math.Sqrt(2)) * ((dd) * (dd) * (dd)) / 3;
@@ -77,11 +77,11 @@ namespace Aufgabe_1._1
             double oktaederSurface = 2 * (Math.Sqrt(3)) * ((dd) * (dd));
             return oktaederSurface;
         }
-        
-        static public void getOktaederInfo (double dd_info)
-        {  
-            double volumen_output = Math.Round(getOktaederVolume(dd_info),2);
-            double surface_output = Math.Round(getOktaederSurface(dd_info),2);
+
+        static public void getOktaederInfo(double dd_info)
+        {
+            double volumen_output = Math.Round(getOktaederVolume(dd_info), 2);
+            double surface_output = Math.Round(getOktaederSurface(dd_info), 2);
             Console.WriteLine("Okaeder: A = " + surface_output + "  |  V = " + volumen_output);
         }
     }
