@@ -1,0 +1,10 @@
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/bin/Debug/netcoreapp2.0/Aufgabe 1.2.deps.json
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/bin/Debug/netcoreapp2.0/Aufgabe 1.2.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/bin/Debug/netcoreapp2.0/Aufgabe 1.2.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/bin/Debug/netcoreapp2.0/Aufgabe 1.2.dll
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/bin/Debug/netcoreapp2.0/Aufgabe 1.2.pdb
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/obj/Debug/netcoreapp2.0/Aufgabe 1.2.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/obj/Debug/netcoreapp2.0/Aufgabe 1.2.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/obj/Debug/netcoreapp2.0/Aufgabe 1.2.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/obj/Debug/netcoreapp2.0/Aufgabe 1.2.dll
+/Users/marius/Github/Softwaredesign/Aufgabe 1.2/obj/Debug/netcoreapp2.0/Aufgabe 1.2.pdb
