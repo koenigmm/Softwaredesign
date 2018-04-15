@@ -15,7 +15,7 @@ if (DateTime.Now.Year - person.DateOfBirth.Year  > ageRange )
             return ret;
 ```
 
-in diesem Fall wird die Perseon Franzi Roche gefunden, da sie die erste Person über 80 ist. Ihre `Mom`und `Dad` deren `Mom` und `Dad` usw. werden gefunden.
+in diesem Fall wird die Person Franzi Roche gefunden, da sie die erste Person über 80 ist. Ihre `Mom`und `Dad` deren `Mom` und `Dad` usw. werden gefunden.
 
 ![Person älter 80](Screenshots/sc1.png)
 
