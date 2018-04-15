@@ -1,3 +1,29 @@
+#Aufgabe 3 Marius König
+Die Static Methode Find nutzt Rekursion um eine Person und dessen Vorfahren zu finden, 
+die zur Vorgabe in der Bedingung entspricht
+
+```C#
+int ageRange = 80
+
+if (DateTime.Now.Year - person.DateOfBirth.Year  > ageRange )
+    return person;
+
+    ret = Find(person.Mom);
+        if (ret != null)
+            return ret;
+        ret = Find(person.Dad);
+            return ret;
+```
+
+in diesem Fall wird die Perseon Franzi Roche gefunden, da sie die erste Person über 80 ist. Ihre `Mom`und `Dad` deren `Mom` und `Dad` usw. werden gefunden.
+![Person älter 80](Screenshots/sc1.png)
+
+Wenn man nach der ersten Person mit dem Nachnamen Buttenberg sucht `if (person.LastName == "Battenberg")` gibt es eine `NullReferenceException` Die mütterliche Seite des Baums wird durchsucht, aber keine Person mit dem Nachnamen Buttenberg gefunden.
+
+![NullReferenceException](Screenshots/sc2.png)
+
+
+
 # Debugging
 
 Der Begriff beschreibt zunächst ganz allgemein die Beseitigung von Fehlern im Programm-Code. Meistens sind hier 

@@ -1,0 +1,10 @@
+/Users/marius/Github/Softwaredesign/L03_Debugging/bin/Debug/netcoreapp2.0/Debugging.deps.json
+/Users/marius/Github/Softwaredesign/L03_Debugging/bin/Debug/netcoreapp2.0/Debugging.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/L03_Debugging/bin/Debug/netcoreapp2.0/Debugging.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/L03_Debugging/bin/Debug/netcoreapp2.0/Debugging.dll
+/Users/marius/Github/Softwaredesign/L03_Debugging/bin/Debug/netcoreapp2.0/Debugging.pdb
+/Users/marius/Github/Softwaredesign/L03_Debugging/obj/Debug/netcoreapp2.0/Debugging.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/L03_Debugging/obj/Debug/netcoreapp2.0/Debugging.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/L03_Debugging/obj/Debug/netcoreapp2.0/Debugging.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/L03_Debugging/obj/Debug/netcoreapp2.0/Debugging.dll
+/Users/marius/Github/Softwaredesign/L03_Debugging/obj/Debug/netcoreapp2.0/Debugging.pdb
