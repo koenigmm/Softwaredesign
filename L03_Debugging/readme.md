@@ -1,4 +1,4 @@
-#Aufgabe 3 Marius König
+# Aufgabe 3 Marius König
 Die Static Methode Find nutzt Rekursion um eine Person und dessen Vorfahren zu finden, 
 die zur Vorgabe in der Bedingung entspricht
 
