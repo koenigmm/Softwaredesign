@@ -16,6 +16,7 @@ if (DateTime.Now.Year - person.DateOfBirth.Year  > ageRange )
 ```
 
 in diesem Fall wird die Perseon Franzi Roche gefunden, da sie die erste Person über 80 ist. Ihre `Mom`und `Dad` deren `Mom` und `Dad` usw. werden gefunden.
+
 ![Person älter 80](Screenshots/sc1.png)
 
 Wenn man nach der ersten Person mit dem Nachnamen Buttenberg sucht `if (person.LastName == "Battenberg")` gibt es eine `NullReferenceException` Die mütterliche Seite des Baums wird durchsucht, aber keine Person mit dem Nachnamen Buttenberg gefunden.
