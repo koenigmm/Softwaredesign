@@ -1,4 +1,5 @@
 # Aufgabe 3 Marius König
+
 Die Static-Methode `Find()` nutzt Rekursion um eine bestimmte Person und dessen Vorfahren zu finden.
 Es kann z.B. nach einer Person mit einem bestimmten Nachnamen gesucht werden oder nach einer Person, die ein bestimmtes Alter hat. Die erste Person, die die Bedingung erfüllt, wird zusammen mit ihren Vorfahren ausgegeben.
 
