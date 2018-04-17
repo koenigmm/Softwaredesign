@@ -1,0 +1,10 @@
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/bin/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.deps.json
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/bin/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/bin/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/bin/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/bin/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.pdb
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/obj/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/obj/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/obj/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/obj/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_3_Zahlensysteme/obj/Debug/netcoreapp2.0/Aufgabe_3_Zahlensysteme.pdb
