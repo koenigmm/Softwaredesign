@@ -1,7 +1,7 @@
 # Softwaredesign
 Für Softwaredesign HFU
 
-## Aufgabe 3 Zahlenysteme
+## Aufgabe 3 Zahlensysteme
 https://github.com/koenigmm/Softwaredesign/tree/master/Aufgabe_3_Zahlensysteme
 
 ## Aufgabe 3 Protokoll  
