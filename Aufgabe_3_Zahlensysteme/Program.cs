@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Collections;
 
 namespace Aufgabe_3_Zahlensysteme
 {
@@ -8,6 +9,7 @@ namespace Aufgabe_3_Zahlensysteme
         static void Main(string[] args)
         {
             Console.WriteLine(ConvertDecimalToHexal(4));
+            Console.WriteLine(ConvertHexalToDezimal(100));
         }
 
         public static int ConvertDecimalToHexal(int dec)
@@ -19,7 +21,7 @@ namespace Aufgabe_3_Zahlensysteme
             int hexaOut = 0;
             StringBuilder myStringbuilder = new StringBuilder();
             //int reverseHexaValue = 0; 
-            
+
             while (dec > 0)
             {
                 hexaValue[i] = dec % hex;
@@ -40,15 +42,33 @@ namespace Aufgabe_3_Zahlensysteme
             return hexaOut;
         }
 
-        public static int ConvertHexalToDezimal(int hexal )
+        public static int ConvertHexalToDezimal(int hexal)
         {
-                        
+            //int count = 4;
+            int temp = hexal;
+            int hex = 6;
+
+            ArrayList hexalAsList = new ArrayList();
+            do
+            {
+                hexalAsList.Add(temp % 10);
+                temp /= 10;
+            } while (temp > 0);  //Dreht schon um
+
+            int[] hexalAsArray = hexalAsList.ToArray(typeof(int)) as int[];
+            int output = 0;
+
+            for (int i = 0; i < hexalAsArray.Length; i++)
+            {
+                output = output + hexalAsArray[i] * Math.Pow(hex,i); 
+            }
+            return output;
         }
 
-        public static int ReverseInt (int nonReverse)
+        public static int ReverseInt(int nonReverse) // wird nicht gebraucht 
         {
             int reverse = 0;
-            while (nonReverse >0)
+            while (nonReverse > 0)
             {
                 int rest = nonReverse % 10;
                 reverse = (reverse * 10) + rest;
