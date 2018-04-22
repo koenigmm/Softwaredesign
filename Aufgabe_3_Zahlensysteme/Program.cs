@@ -8,11 +8,18 @@ namespace Aufgabe_3_Zahlensysteme
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ConvertDecimalToHexal(4));
-            Console.WriteLine(ConvertHexalToDezimal(100));
-            Console.WriteLine(Math.Pow(100, 2));
-            Console.WriteLine(ConvertToBaseFromDecimal(3, 100));
-            Console.WriteLine(ConvertToDecimalFromBase(5, 100));
+            int value1 = 4;
+            int value2 = 36;
+            int value3 = 100;
+            int exp1 = 2;
+            int exp2 = 3;
+            int exp3 = 5;
+            Console.WriteLine("Die Dezimalzahl: " + value1 + " ist im Hexalsystem: " + ConvertDecimalToHexal(value1));
+            Console.WriteLine(ConvertDecimalToHexal(value2));
+            Console.WriteLine(ConvertHexalToDezimal(value3));
+            Console.WriteLine(Math.Pow(value3, exp1));
+            Console.WriteLine(ConvertToBaseFromDecimal(exp2, value3));
+            Console.WriteLine(ConvertToDecimalFromBase(exp3, value3));
         }
 
         public static int ConvertDecimalToHexal(int dec)
