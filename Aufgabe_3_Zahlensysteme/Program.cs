@@ -11,8 +11,8 @@ namespace Aufgabe_3_Zahlensysteme
             Console.WriteLine(ConvertDecimalToHexal(4));
             Console.WriteLine(ConvertHexalToDezimal(100));
             Console.WriteLine(Math.Pow(100, 2));
-            Console.WriteLine(ConvertToBaseFromDecimal(3,100));
-            Console.WriteLine(ConvertToDecimalFromBase(5,100));
+            Console.WriteLine(ConvertToBaseFromDecimal(3, 100));
+            Console.WriteLine(ConvertToDecimalFromBase(5, 100));
         }
 
         public static int ConvertDecimalToHexal(int dec)
@@ -72,7 +72,7 @@ namespace Aufgabe_3_Zahlensysteme
             return forOutput;
         }
 
-        public static int  ConvertToBaseFromDecimal(int toBase, int dec)
+        public static int ConvertToBaseFromDecimal(int toBase, int dec)
         {
             int arraySize = 6;
             int[] value = new int[arraySize];
@@ -131,7 +131,18 @@ namespace Aufgabe_3_Zahlensysteme
         //noch in Arbeit 
         public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
         {
-            return 1;
+            int placeholder1 = 0;
+            int placeholder2 = 0;
+            int dezimal = 10;
+            if (fromBase != dezimal && fromBase != 0)
+            {
+                placeholder1 = ConvertToDecimalFromBase(fromBase, number);
+                placeholder2 = ConvertToBaseFromDecimal(toBase, number);
+            }
+
+            if (toBase == dezimal)
+                return placeholder1;
+            else return placeholder2;
         }
 
 
