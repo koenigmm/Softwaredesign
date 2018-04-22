@@ -10,6 +10,7 @@ namespace Aufgabe_3_Zahlensysteme
         {
             Console.WriteLine(ConvertDecimalToHexal(4));
             Console.WriteLine(ConvertHexalToDezimal(100));
+            Console.WriteLine(Math.Pow(100,2));
         }
 
         public static int ConvertDecimalToHexal(int dec)
@@ -46,7 +47,8 @@ namespace Aufgabe_3_Zahlensysteme
         {
             //int count = 4;
             int temp = hexal;
-            int hex = 6;
+            double hex = 6;
+            double ii = 0;
 
             ArrayList hexalAsList = new ArrayList();
             do
@@ -56,13 +58,16 @@ namespace Aufgabe_3_Zahlensysteme
             } while (temp > 0);  //Dreht schon um
 
             int[] hexalAsArray = hexalAsList.ToArray(typeof(int)) as int[];
-            int output = 0;
+            double output = 0;
+            int forOutput = 0;
 
             for (int i = 0; i < hexalAsArray.Length; i++)
             {
-                output = output + hexalAsArray[i] * Math.Pow(hex,i); 
+                ii = i; //macht aus i double;
+                output += output + hexalAsArray[i] * Math.Pow(hex,i) ;
             }
-            return output;
+            forOutput = Convert.ToInt32(output);
+            return forOutput;
         }
 
         public static int ReverseInt(int nonReverse) // wird nicht gebraucht 
@@ -75,6 +80,17 @@ namespace Aufgabe_3_Zahlensysteme
                 nonReverse /= 10;
             }
             return reverse;
+        }
+
+        public static int potenzieren(int hoch, int unten)
+        {
+            int ergebnis =1;
+            for (int i = 1; i <= hoch; i++)
+            {
+
+                ergebnis *= unten;
+            }
+            return ergebnis;
         }
     }
 }
