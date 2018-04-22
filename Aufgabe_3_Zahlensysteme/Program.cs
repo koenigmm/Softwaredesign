@@ -127,6 +127,14 @@ namespace Aufgabe_3_Zahlensysteme
             return forOutput;
         }
 
+
+        //noch in Arbeit 
+        public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
+        {
+
+        }
+
+
         public static int ReverseInt(int nonReverse) // wird nicht gebraucht 
         {
             int reverse = 0;
