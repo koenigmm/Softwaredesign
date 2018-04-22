@@ -1,6 +1,9 @@
 # Softwaredesign
 Für Softwaredesign HFU
 
+## Aufgabe 3 Zahlenysteme
+https://github.com/koenigmm/Softwaredesign/tree/master/Aufgabe_3_Zahlensysteme
+
 ## Aufgabe 3 Protokoll  
 https://github.com/koenigmm/Softwaredesign/blob/master/L03_Debugging/readme.md
 
