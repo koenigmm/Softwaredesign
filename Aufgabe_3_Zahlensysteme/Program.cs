@@ -135,7 +135,7 @@ namespace Aufgabe_3_Zahlensysteme
         }
 
 
-        //noch in Arbeit 
+        //TODO überabeiten
         public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
         {
             int placeholder1 = 0;
