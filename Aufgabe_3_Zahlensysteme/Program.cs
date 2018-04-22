@@ -10,7 +10,9 @@ namespace Aufgabe_3_Zahlensysteme
         {
             Console.WriteLine(ConvertDecimalToHexal(4));
             Console.WriteLine(ConvertHexalToDezimal(100));
-            Console.WriteLine(Math.Pow(100,2));
+            Console.WriteLine(Math.Pow(100, 2));
+            Console.WriteLine(ConvertToBaseFromDecimal(3,100));
+            Console.WriteLine(ConvertToDecimalFromBase(5,100));
         }
 
         public static int ConvertDecimalToHexal(int dec)
@@ -64,7 +66,62 @@ namespace Aufgabe_3_Zahlensysteme
             for (int i = 0; i < hexalAsArray.Length; i++)
             {
                 ii = i; //macht aus i double;
-                output += output + hexalAsArray[i] * Math.Pow(hex,i) ;
+                output += output + hexalAsArray[i] * Math.Pow(hex, i);
+            }
+            forOutput = Convert.ToInt32(output);
+            return forOutput;
+        }
+
+        public static int  ConvertToBaseFromDecimal(int toBase, int dec)
+        {
+            int arraySize = 6;
+            int[] value = new int[arraySize];
+            int i = 0;
+            int toBaseOut = 0;
+            StringBuilder myStringbuilder = new StringBuilder();
+            //int reverseHexaValue = 0; 
+
+            while (dec > 0)
+            {
+                value[i] = dec % toBase;
+                i++;
+                dec = dec / toBase;
+            }
+
+            Array.Reverse(value);
+
+            foreach (int k in value)
+            {
+                myStringbuilder.Append(k);
+            }
+
+            toBaseOut = int.Parse(myStringbuilder.ToString());
+
+
+            return toBaseOut;
+        }
+
+
+        public static int ConvertToDecimalFromBase(int fromBase, int number)
+        {
+            //int count = 4;
+            int temp = number;
+            double fromBaseValue = fromBase;
+
+            ArrayList valueAsList = new ArrayList();
+            do
+            {
+                valueAsList.Add(temp % 10);
+                temp /= 10;
+            } while (temp > 0);  //Dreht schon um
+
+            int[] valueAsArray = valueAsList.ToArray(typeof(int)) as int[];
+            double output = 0;
+            int forOutput = 0;
+
+            for (int i = 0; i < valueAsArray.Length; i++)
+            {
+                output += output + valueAsArray[i] * Math.Pow(fromBaseValue, i);
             }
             forOutput = Convert.ToInt32(output);
             return forOutput;
@@ -80,17 +137,6 @@ namespace Aufgabe_3_Zahlensysteme
                 nonReverse /= 10;
             }
             return reverse;
-        }
-
-        public static int potenzieren(int hoch, int unten)
-        {
-            int ergebnis =1;
-            for (int i = 1; i <= hoch; i++)
-            {
-
-                ergebnis *= unten;
-            }
-            return ergebnis;
         }
     }
 }
