@@ -131,7 +131,7 @@ namespace Aufgabe_3_Zahlensysteme
         //noch in Arbeit 
         public static int ConvertNumberToBaseFromBase(int number, int toBase, int fromBase)
         {
-
+            return 1;
         }
 
 
