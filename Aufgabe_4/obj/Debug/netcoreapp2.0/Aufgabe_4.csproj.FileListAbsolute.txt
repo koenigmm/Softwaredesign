@@ -1,0 +1,10 @@
+/Users/marius/Github/Softwaredesign/Aufgabe_4/bin/Debug/netcoreapp2.0/Aufgabe_4.deps.json
+/Users/marius/Github/Softwaredesign/Aufgabe_4/bin/Debug/netcoreapp2.0/Aufgabe_4.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/Aufgabe_4/bin/Debug/netcoreapp2.0/Aufgabe_4.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/Aufgabe_4/bin/Debug/netcoreapp2.0/Aufgabe_4.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_4/bin/Debug/netcoreapp2.0/Aufgabe_4.pdb
+/Users/marius/Github/Softwaredesign/Aufgabe_4/obj/Debug/netcoreapp2.0/Aufgabe_4.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_4/obj/Debug/netcoreapp2.0/Aufgabe_4.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_4/obj/Debug/netcoreapp2.0/Aufgabe_4.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/Aufgabe_4/obj/Debug/netcoreapp2.0/Aufgabe_4.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_4/obj/Debug/netcoreapp2.0/Aufgabe_4.pdb
