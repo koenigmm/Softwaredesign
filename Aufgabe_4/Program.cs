@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace Aufgabe_4
 {
+    /* TODO 
+    - Zukünftig Main-Methode oben und die anderen Klassen/Methode unten
+    - Evtl die anderen Klassen/Methoden in eigene Datei auslagern 
+     */
     public class Tree<T>
     {
         public T Content;
