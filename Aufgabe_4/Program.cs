@@ -11,18 +11,30 @@ namespace Aufgabe_4
             var root = tree.CreateNode("root");
             var child1 = tree.CreateNode("child1");
             var child2 = tree.CreateNode("child1");
+            var child3 = tree.CreateNode("Child3");
+            var child4 = tree.CreateNode("Child4");
+            var child5 = tree.CreateNode("Child5");
+            var child6 = tree.CreateNode("Child6");
             root.AppendChild(child1);
             root.AppendChild(child2);
+            root.AppendChild(child3);
+            root.AppendChild(child4);
+            root.AppendChild(child5);
+            root.AppendChild(child6);
             var grand11 = tree.CreateNode("grand11");
             var grand12 = tree.CreateNode("grand12");
             var grand13 = tree.CreateNode("grand13");
+            var grand14 = tree.CreateNode("grand14");
+            var grand15 = tree.CreateNode("grand15");
             child1.AppendChild(grand11);
             child1.AppendChild(grand12);
             child1.AppendChild(grand13);
+            child1.AppendChild(grand14);
+            child1.AppendChild(grand15);
             var grand21 = tree.CreateNode("grand21");
             child2.AppendChild(grand21);
             child1.RemoveChild(grand12);
-
+            var searchList = tree.FindNode("grand15");
             root.PrintTree();
         }
     }
@@ -59,10 +71,12 @@ namespace Aufgabe_4
                 child.PrintTree(placeholder + "*");
         }
 
-        public void FindNode(Tree<T> searchNode)
+        public List<Tree<T>> FindNode(T searchNode)
         {
-            
+            return (ListOfChildren.FindAll(x => x.Content.Equals(searchNode)));
         }
+
+
     }
 
 }
