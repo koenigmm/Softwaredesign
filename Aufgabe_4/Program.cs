@@ -34,7 +34,11 @@ namespace Aufgabe_4
             var grand21 = tree.CreateNode("grand21");
             child2.AppendChild(grand21);
             child1.RemoveChild(grand12);
-            var searchList = tree.FindNode("grand15");
+            var searchList = root.FindNode("child1");
+            foreach(var c in searchList)
+            {
+                Console.WriteLine(c);
+            }
             root.PrintTree();
         }
     }
