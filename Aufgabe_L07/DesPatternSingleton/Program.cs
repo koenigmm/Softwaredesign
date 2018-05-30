@@ -9,12 +9,14 @@ namespace DesPatternSingleton
         private string Name;
         private int Age;
         private int Id;
+        public static List<Person> globalPerson = new List<Person>();
 
         public Person(string _name, int _age)  //Konstruktor
         {
             Age = _age;
             Name = _name;
             Id = IDGenerator.GetInstance().GibMirNeId();
+            globalPerson.Add(this);
         }
 
         public override string ToString()
@@ -62,7 +64,11 @@ namespace DesPatternSingleton
 
 
             List<Person> personen = new List<Person>();
+            /*
+                Aufgabe Neue Personen sollen sich selbst in eine Liste eintragen
+             */
 
+            /*
             // Eine Stelle, an der Personen angelegt werden
             personen.Add(new Person("Walter", 14));
             personen.Add(new Person("Babara", 67));
@@ -76,10 +82,23 @@ namespace DesPatternSingleton
             personen.Add(new Person("Waldtraut", 34));
             personen.Add(new Person("Siegmund", 59));
             personen.Add(new Person("Tuniglinde", 74));
+             */
 
 
+            new Person("Walter", 24);
+            new Person("Siegmund", 70);
+            new Person("Waldtraut", 70);
+            new Person("Brunhilde", 60);
+            new Person("Thomas", 14);
+            new Person("Gerhart", 40);
+
+            /*
             foreach (var person in personen)
                 Console.WriteLine(person);
+             */
+
+            foreach (var person2 in Person.globalPerson)
+                Console.WriteLine(person2);
 
             //Console.WriteLine("Hello World!");
         }
