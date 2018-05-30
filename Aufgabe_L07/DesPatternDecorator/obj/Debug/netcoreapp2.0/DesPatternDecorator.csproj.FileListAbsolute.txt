@@ -1,0 +1,11 @@
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/bin/Debug/netcoreapp2.0/DesPatternDecorator.deps.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/bin/Debug/netcoreapp2.0/DesPatternDecorator.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/bin/Debug/netcoreapp2.0/DesPatternDecorator.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/bin/Debug/netcoreapp2.0/DesPatternDecorator.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/bin/Debug/netcoreapp2.0/DesPatternDecorator.pdb
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.csprojResolveAssemblyReference.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/Debug/netcoreapp2.0/DesPatternDecorator.pdb

@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marius/Github/Softwaredesign/Aufgabe_6_ DekoratorMuster/Aufgabe_6_ DekoratorMuster.csproj",
-      "projectName": "Aufgabe_6_ DekoratorMuster",
-      "projectPath": "/Users/marius/Github/Softwaredesign/Aufgabe_6_ DekoratorMuster/Aufgabe_6_ DekoratorMuster.csproj",
+      "projectUniqueName": "/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/DesPatternDecorator.csproj",
+      "projectName": "DesPatternDecorator",
+      "projectPath": "/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/DesPatternDecorator.csproj",
       "packagesPath": "/Users/marius/.nuget/packages/",
-      "outputPath": "/Users/marius/Github/Softwaredesign/Aufgabe_6_ DekoratorMuster/obj/",
+      "outputPath": "/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternDecorator/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

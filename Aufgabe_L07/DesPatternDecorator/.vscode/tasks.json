@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Aufgabe_6_ DekoratorMuster.csproj"
+                "${workspaceFolder}/DesPatternDecorator.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

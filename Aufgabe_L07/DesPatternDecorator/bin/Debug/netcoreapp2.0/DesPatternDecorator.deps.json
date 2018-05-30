@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Aufgabe_6_ DekoratorMuster/1.0.0": {
+      "DesPatternDecorator/1.0.0": {
         "runtime": {
-          "Aufgabe_6_ DekoratorMuster.dll": {}
+          "DesPatternDecorator.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Aufgabe_6_ DekoratorMuster/1.0.0": {
+    "DesPatternDecorator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
