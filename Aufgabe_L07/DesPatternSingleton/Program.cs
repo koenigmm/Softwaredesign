@@ -76,7 +76,7 @@ namespace DesPatternSingleton
             foreach (var person in personen)
                 Console.WriteLine(person);
 
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
         }
     }
 }

@@ -1,0 +1,11 @@
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/bin/Debug/netcoreapp2.0/DesPatternSingleton.deps.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/bin/Debug/netcoreapp2.0/DesPatternSingleton.runtimeconfig.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/bin/Debug/netcoreapp2.0/DesPatternSingleton.runtimeconfig.dev.json
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/bin/Debug/netcoreapp2.0/DesPatternSingleton.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/bin/Debug/netcoreapp2.0/DesPatternSingleton.pdb
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.csprojResolveAssemblyReference.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.csproj.CoreCompileInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.AssemblyInfoInputs.cache
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.AssemblyInfo.cs
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.dll
+/Users/marius/Github/Softwaredesign/Aufgabe_L07/DesPatternSingleton/obj/Debug/netcoreapp2.0/DesPatternSingleton.pdb
