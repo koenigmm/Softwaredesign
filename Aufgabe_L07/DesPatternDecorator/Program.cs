@@ -5,7 +5,7 @@ namespace DesPatternDecorator
 {
     public class Spielfigur
     {
-        public void  Drohe(); 
+        public  virtual void  Drohe()
         {
             Console.Write("Drohung");
         }
@@ -13,7 +13,7 @@ namespace DesPatternDecorator
 
     class Monster : Spielfigur
     {
-        public void Drohe()
+        public override void Drohe()
         {
             Console.Write("Grrrrr!");
         }
@@ -22,7 +22,7 @@ namespace DesPatternDecorator
 
     class Held : Spielfigur
     {
-        public void Drohe()
+        public override void Drohe()
         {
             Console.Write("Weiche zurück!");
         }        
