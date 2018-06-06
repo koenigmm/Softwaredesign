@@ -3,9 +3,12 @@ using System.Collections.Generic;
 
 namespace DesPatternDecorator
 {
-    interface Spielfigur
+    public class Spielfigur
     {
-        void Drohe();  
+        public void  Drohe(); 
+        {
+            Console.Write("Drohung");
+        }
     }
 
     class Monster : Spielfigur
@@ -35,7 +38,7 @@ namespace DesPatternDecorator
         {
             _original = original; 
         }
-        public void Drohe()
+        public override void Drohe()
         {
             _original.Drohe();
             Console.Write(" Hust!");
@@ -50,7 +53,7 @@ namespace DesPatternDecorator
         {
             _original = original; 
         }
-        public void Drohe()
+        public override void Drohe()
         {
             Console.Write("Räusper...");
             _original.Drohe();
