@@ -57,4 +57,19 @@ namespace DesPatternDecorator
             _original.Drohe();
         }
     }
+
+        class RoechelndeFigur : Spielfigur
+    {
+        private Spielfigur _original;
+
+        public RoechelndeFigur(Spielfigur original)
+        {
+            _original = original; 
+        }
+        public override void Drohe()
+        {
+            _original.Drohe();
+            Console.Write(" Röchel...!");
+        }
+    }
 }

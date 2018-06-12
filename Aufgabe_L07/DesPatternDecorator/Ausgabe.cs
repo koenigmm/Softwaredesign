@@ -15,6 +15,7 @@ namespace DesPatternDecorator {
             figuren.Add(new ErkaelteteFigur(new ErkaelteteFigur(new Monster())));
             figuren.Add(new HeisereFigur(new Monster()));
             figuren.Add(new ErkaelteteFigur(new HeisereFigur(new Held())));
+            figuren.Add(new RoechelndeFigur(new Held()));
 
             foreach(var spielfigur in figuren)
             {
