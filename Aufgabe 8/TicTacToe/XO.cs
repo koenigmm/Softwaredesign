@@ -137,7 +137,8 @@ namespace TicTacToe
             }
         }
 
-        private static void CheckWinConditionOLDVar1(char[] charArrayToTest)  //Wird NICHT benutzt
+        //Wird NICHT benutzt
+        private static void CheckWinConditionOLDVar1(char[] charArrayToTest)
         {
             /*
             int[] case1 =  {0,1,2};
