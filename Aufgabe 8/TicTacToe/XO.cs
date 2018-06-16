@@ -27,7 +27,7 @@ namespace TicTacToe
 
             for (int i = 0; counter <= gameData.Length; i++)
             {
-                CheckWinCondition(gameData);
+                CheckWinConditionNew(gameData);
 
                 if (win)
                 {
@@ -122,7 +122,22 @@ namespace TicTacToe
             }
         }
 
-        private static void CheckWinCondition(char[] charArrayToTest)
+        public static void CheckWinConditionNew(char[] charArrayToTest)  //wird benutzt
+        {
+            int[,] cases = new int[,] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }, { 1, 4, 7 }, { 2, 5, 8 }, { 3, 6, 9 }, { 1, 5, 9 }, { 3, 5, 7 } };
+
+            for (int i = 0; i < cases.GetLength(0); i++)
+            {
+                if (charArrayToTest[cases[i, 0] - 1] == charArrayToTest[cases[i, 1] - 1] && charArrayToTest[cases[i, 1] - 1] == charArrayToTest[cases[i, 2] - 1])
+                {
+                    win = true;
+                    Console.WriteLine("Player " + charArrayToTest[cases[i, 0] - 1] + " is the winner");
+                    Console.WriteLine("");
+                }
+            }
+        }
+
+        private static void CheckWinConditionOLDVar1(char[] charArrayToTest)  //Wird NICHT benutzt
         {
             /*
             int[] case1 =  {0,1,2};
@@ -134,9 +149,7 @@ namespace TicTacToe
             int[] caseDiag1 =  {0,4,8};
             int[] caseDiag2 =  {6,4,2};
              */
-
-
-            //TODO Eleganteren Weg finden
+            //TODO Eleganteren Weg finden erledigt 
             if (charArrayToTest[0] == charArrayToTest[1] && charArrayToTest[2] == charArrayToTest[0] && charArrayToTest[2] == charArrayToTest[1])
             {
                 win = true;
@@ -185,9 +198,6 @@ namespace TicTacToe
                 Console.WriteLine("Player " + charArrayToTest[6] + " is the winner");
                 Console.WriteLine("");
             }
-
-
-
         }
     }
 }
